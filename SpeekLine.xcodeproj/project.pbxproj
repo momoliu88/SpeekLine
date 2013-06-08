@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914F3CD8176379CF007954D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914F3CD7176379CF007954D2 /* Cocoa.framework */; };
+		914F3CE2176379CF007954D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 914F3CE0176379CF007954D2 /* InfoPlist.strings */; };
+		914F3CE4176379CF007954D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F3CE3176379CF007954D2 /* main.m */; };
+		914F3CE8176379CF007954D2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 914F3CE6176379CF007954D2 /* Credits.rtf */; };
+		914F3CEB176379CF007954D2 /* SpeekLineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F3CEA176379CF007954D2 /* SpeekLineAppDelegate.m */; };
+		914F3CEE176379CF007954D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914F3CEC176379CF007954D2 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		914F3CD3176379CF007954D2 /* SpeekLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeekLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914F3CD7176379CF007954D2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		914F3CDA176379CF007954D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		914F3CDB176379CF007954D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		914F3CDC176379CF007954D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		914F3CDF176379CF007954D2 /* SpeekLine-Info.plist */ = {isa = PBXFileReference; path = "SpeekLine-Info.plist"; sourceTree = "<group>"; };
+		914F3CE1176379CF007954D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		914F3CE3176379CF007954D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		914F3CE5176379CF007954D2 /* SpeekLine-Prefix.pch */ = {isa = PBXFileReference; path = "SpeekLine-Prefix.pch"; sourceTree = "<group>"; };
+		914F3CE7176379CF007954D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		914F3CE9176379CF007954D2 /* SpeekLineAppDelegate.h */ = {isa = PBXFileReference; path = SpeekLineAppDelegate.h; sourceTree = "<group>"; };
+		914F3CEA176379CF007954D2 /* SpeekLineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeekLineAppDelegate.m; sourceTree = "<group>"; };
+		914F3CED176379CF007954D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		914F3CD0176379CF007954D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914F3CD8176379CF007954D2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914F3CC8176379CE007954D2 = {
+			isa = PBXGroup;
+			children = (
+				914F3CDD176379CF007954D2 /* SpeekLine */,
+				914F3CD6176379CF007954D2 /* Frameworks */,
+				914F3CD4176379CF007954D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		914F3CD4176379CF007954D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914F3CD3176379CF007954D2 /* SpeekLine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914F3CD6176379CF007954D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				914F3CD7176379CF007954D2 /* Cocoa.framework */,
+				914F3CD9176379CF007954D2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914F3CD9176379CF007954D2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				914F3CDA176379CF007954D2 /* AppKit.framework */,
+				914F3CDB176379CF007954D2 /* CoreData.framework */,
+				914F3CDC176379CF007954D2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		914F3CDD176379CF007954D2 /* SpeekLine */ = {
+			isa = PBXGroup;
+			children = (
+				914F3CE9176379CF007954D2 /* SpeekLineAppDelegate.h */,
+				914F3CEA176379CF007954D2 /* SpeekLineAppDelegate.m */,
+				914F3CEC176379CF007954D2 /* MainMenu.xib */,
+				914F3CDE176379CF007954D2 /* Supporting Files */,
+			);
+			path = SpeekLine;
+			sourceTree = "<group>";
+		};
+		914F3CDE176379CF007954D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				914F3CDF176379CF007954D2 /* SpeekLine-Info.plist */,
+				914F3CE0176379CF007954D2 /* InfoPlist.strings */,
+				914F3CE3176379CF007954D2 /* main.m */,
+				914F3CE5176379CF007954D2 /* SpeekLine-Prefix.pch */,
+				914F3CE6176379CF007954D2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914F3CD2176379CF007954D2 /* SpeekLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914F3CF1176379CF007954D2 /* Build configuration list for PBXNativeTarget "SpeekLine" */;
+			buildPhases = (
+				914F3CCF176379CF007954D2 /* Sources */,
+				914F3CD0176379CF007954D2 /* Frameworks */,
+				914F3CD1176379CF007954D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeekLine;
+			productName = SpeekLine;
+			productReference = 914F3CD3176379CF007954D2 /* SpeekLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914F3CCA176379CE007954D2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 914F3CCD176379CE007954D2 /* Build configuration list for PBXProject "SpeekLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 914F3CC8176379CE007954D2;
+			productRefGroup = 914F3CD4176379CF007954D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914F3CD2176379CF007954D2 /* SpeekLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914F3CD1176379CF007954D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914F3CE2176379CF007954D2 /* InfoPlist.strings in Resources */,
+				914F3CE8176379CF007954D2 /* Credits.rtf in Resources */,
+				914F3CEE176379CF007954D2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		914F3CCF176379CF007954D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914F3CE4176379CF007954D2 /* main.m in Sources */,
+				914F3CEB176379CF007954D2 /* SpeekLineAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		914F3CE0176379CF007954D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914F3CE1176379CF007954D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		914F3CE6176379CF007954D2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914F3CE7176379CF007954D2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		914F3CEC176379CF007954D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914F3CED176379CF007954D2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		914F3CEF176379CF007954D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		914F3CF0176379CF007954D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		914F3CF2176379CF007954D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeekLine/SpeekLine-Prefix.pch";
+				INFOPLIST_FILE = "SpeekLine/SpeekLine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		914F3CF3176379CF007954D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeekLine/SpeekLine-Prefix.pch";
+				INFOPLIST_FILE = "SpeekLine/SpeekLine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914F3CCD176379CE007954D2 /* Build configuration list for PBXProject "SpeekLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914F3CEF176379CF007954D2 /* Debug */,
+				914F3CF0176379CF007954D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914F3CF1176379CF007954D2 /* Build configuration list for PBXNativeTarget "SpeekLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914F3CF2176379CF007954D2 /* Debug */,
+				914F3CF3176379CF007954D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914F3CCA176379CE007954D2 /* Project object */;
+}
