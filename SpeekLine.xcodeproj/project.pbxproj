@@ -21,12 +21,12 @@
 		914F3CDA176379CF007954D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		914F3CDB176379CF007954D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		914F3CDC176379CF007954D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		914F3CDF176379CF007954D2 /* SpeekLine-Info.plist */ = {isa = PBXFileReference; path = "SpeekLine-Info.plist"; sourceTree = "<group>"; };
+		914F3CDF176379CF007954D2 /* SpeekLine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeekLine-Info.plist"; sourceTree = "<group>"; };
 		914F3CE1176379CF007954D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		914F3CE3176379CF007954D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		914F3CE5176379CF007954D2 /* SpeekLine-Prefix.pch */ = {isa = PBXFileReference; path = "SpeekLine-Prefix.pch"; sourceTree = "<group>"; };
+		914F3CE5176379CF007954D2 /* SpeekLine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeekLine-Prefix.pch"; sourceTree = "<group>"; };
 		914F3CE7176379CF007954D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		914F3CE9176379CF007954D2 /* SpeekLineAppDelegate.h */ = {isa = PBXFileReference; path = SpeekLineAppDelegate.h; sourceTree = "<group>"; };
+		914F3CE9176379CF007954D2 /* SpeekLineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeekLineAppDelegate.h; sourceTree = "<group>"; };
 		914F3CEA176379CF007954D2 /* SpeekLineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeekLineAppDelegate.m; sourceTree = "<group>"; };
 		914F3CED176379CF007954D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

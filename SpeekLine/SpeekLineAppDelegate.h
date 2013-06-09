@@ -10,8 +10,16 @@
 
 @interface SpeekLineAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *_window;
+    NSTextField *_textline;
+    NSTableView *_tv;
+    NSSpeechSynthesizer * speech;
+    NSArray * voices;
 }
+@property (strong) IBOutlet NSTextField *textline;
+@property (strong) IBOutlet NSTableView *tv;
 
 @property (strong) IBOutlet NSWindow *window;
+- (IBAction)stop:(id)sender;
+- (IBAction)speak:(id)sender;
 
 @end
